@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="epam.TagServiceTest" time="0.365" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/raxmatillo/eclipse EE new/epam/modul-2-2/target/test-classes:/Users/raxmatillo/eclipse EE new/epam/modul-2-2/target/classes:/Users/raxmatillo/.m2/repository/org/springframework/spring-webmvc/5.3.18/spring-webmvc-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-aop/5.3.18/spring-aop-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-beans/5.3.18/spring-beans-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-context/5.3.18/spring-context-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-core/5.3.18/spring-core-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-jcl/5.3.18/spring-jcl-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-expression/5.3.18/spring-expression-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-web/5.3.18/spring-web-5.3.18.jar:/Users/raxmatillo/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/raxmatillo/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/raxmatillo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/raxmatillo/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-jdbc/5.3.18/spring-jdbc-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-tx/5.3.18/spring-tx-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/postgresql/postgresql/42.3.3/postgresql-42.3.3.jar:/Users/raxmatillo/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/raxmatillo/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/raxmatillo/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/Users/raxmatillo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/raxmatillo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/raxmatillo/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/raxmatillo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/raxmatillo/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/raxmatillo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/raxmatillo/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/raxmatillo/.m2/repository/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.jar:/Users/raxmatillo/.m2/repository/net/bytebuddy/byte-buddy/1.12.9/byte-buddy-1.12.9.jar:/Users/raxmatillo/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.9/byte-buddy-agent-1.12.9.jar:/Users/raxmatillo/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-test/5.3.18/spring-test-5.3.18.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="UZ"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/real-jdk1.8.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/raxmatillo/eclipse EE new/epam/modul-2-2/target/surefire/surefirebooter5397779174089922492.jar /Users/raxmatillo/eclipse EE new/epam/modul-2-2/target/surefire 2022-05-15T13-28-33_666-jvmRun1 surefire3743751109426664608tmp surefire_04012148046771304072tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/raxmatillo/eclipse EE new/epam/modul-2-2/target/test-classes:/Users/raxmatillo/eclipse EE new/epam/modul-2-2/target/classes:/Users/raxmatillo/.m2/repository/org/springframework/spring-webmvc/5.3.18/spring-webmvc-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-aop/5.3.18/spring-aop-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-beans/5.3.18/spring-beans-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-context/5.3.18/spring-context-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-core/5.3.18/spring-core-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-jcl/5.3.18/spring-jcl-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-expression/5.3.18/spring-expression-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-web/5.3.18/spring-web-5.3.18.jar:/Users/raxmatillo/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/raxmatillo/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/raxmatillo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/raxmatillo/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-jdbc/5.3.18/spring-jdbc-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-tx/5.3.18/spring-tx-5.3.18.jar:/Users/raxmatillo/.m2/repository/org/postgresql/postgresql/42.3.3/postgresql-42.3.3.jar:/Users/raxmatillo/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/raxmatillo/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/raxmatillo/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/Users/raxmatillo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/raxmatillo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/raxmatillo/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/raxmatillo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/raxmatillo/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/raxmatillo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/raxmatillo/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/raxmatillo/.m2/repository/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.jar:/Users/raxmatillo/.m2/repository/net/bytebuddy/byte-buddy/1.12.9/byte-buddy-1.12.9.jar:/Users/raxmatillo/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.9/byte-buddy-agent-1.12.9.jar:/Users/raxmatillo/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/raxmatillo/.m2/repository/org/springframework/spring-test/5.3.18/spring-test-5.3.18.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/raxmatillo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/real-jdk1.8.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/raxmatillo/eclipse EE new/epam/modul-2-2"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/raxmatillo/eclipse EE new/epam/modul-2-2/target/surefire/surefirebooter5397779174089922492.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/real-jdk1.8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/real-jdk1.8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/real-jdk1.8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/real-jdk1.8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/real-jdk1.8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/real-jdk1.8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/real-jdk1.8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/real-jdk1.8.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_331-b09"/>
+    <property name="user.name" value="raxmatillo"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.2"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/real-jdk1.8.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/raxmatillo/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/td/7bgtr80n51ldvc39nl8jkd480000gn/T/"/>
+    <property name="java.version" value="1.8.0_331"/>
+    <property name="user.dir" value="/Users/raxmatillo/eclipse EE new/epam/modul-2-2"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/raxmatillo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.331-b09"/>
+    <property name="java.ext.dirs" value="/Users/raxmatillo/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/real-jdk1.8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="deleteTagShouldThrowMySqlException" classname="epam.TagServiceTest" time="0.327"/>
+  <testcase name="isTagExistSuccessFalse" classname="epam.TagServiceTest" time="0.002"/>
+  <testcase name="myTest" classname="epam.TagServiceTest" time="0.002"/>
+  <testcase name="deleteTagShouldThrowMyNotFoundException" classname="epam.TagServiceTest" time="0.002"/>
+  <testcase name="isTagExistSuccessTrue" classname="epam.TagServiceTest" time="0.001"/>
+  <testcase name="getAllTagsSuccess" classname="epam.TagServiceTest" time="0.002"/>
+  <testcase name="getTagByIdShouldThrowException" classname="epam.TagServiceTest" time="0.002"/>
+  <testcase name="saveTagShouldThrowAlreadyExistException" classname="epam.TagServiceTest" time="0.001"/>
+  <testcase name="saveTagSuccess" classname="epam.TagServiceTest" time="0.001"/>
+  <testcase name="deleteTagSuccess" classname="epam.TagServiceTest" time="0.002"/>
+  <testcase name="deleteTagShouldThrowMySqlException2" classname="epam.TagServiceTest" time="0.001"/>
+  <testcase name="getTagByIdSuccess" classname="epam.TagServiceTest" time="0.002"/>
+  <testcase name="saveTagShouldThrowMySqlException" classname="epam.TagServiceTest" time="0.001"/>
+</testsuite>
